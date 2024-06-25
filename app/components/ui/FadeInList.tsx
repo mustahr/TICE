@@ -55,7 +55,7 @@ const FadeInList = () => {
         >
           <Link
             href="https://www.canva.com/templates/?query=presentation"
-            target="blank"
+            target="_blank"
             className="w-full flex items-center justify-between"
           >
             <span>Presentations</span>
@@ -88,7 +88,7 @@ const FadeInList = () => {
         >
           <Link
             href="https://www.canva.com/logos/templates/"
-            target="blank"
+            target="_blank"
             className="w-full flex items-center justify-between"
           >
             <span>Logo</span>
@@ -121,7 +121,7 @@ const FadeInList = () => {
         >
           <Link
             href="https://www.canva.com/templates/?query=book"
-            target="blank"
+            target="_blank"
             className="w-full flex items-center justify-between"
           >
             <span>Degital Books</span>
@@ -154,7 +154,7 @@ const FadeInList = () => {
         >
           <Link
             href="https://www.canva.com/resumes/templates/"
-            target="blank"
+            target="_blank"
             className="w-full flex items-center justify-between"
           >
             <span>Resume</span>

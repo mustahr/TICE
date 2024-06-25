@@ -71,13 +71,13 @@ const ReviewCard = ({
   return (
     <Link
       href={link}
-      target="blank"
+      target="_blank"
       className={cn(
-        "relative w-80 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative mg:w-80 min-w-full cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+        "border-pink-300 bg-pink-950/[.01] hover:bg-pink-950/[.05]",
         // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+        "dark:border-pink-500 dark:bg-pink-50/[.10] dark:hover:bg-pink-50/[.15]"
       )}
     >
       <div className="flex flex-row items-start gap-2">
@@ -86,7 +86,7 @@ const ReviewCard = ({
           alt={name}
           width={32}
           height={32}
-          className="rounded-full object-cover"
+          className="rounded-full object-cover  bg-black p-1 border border-pink-500"
         />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">

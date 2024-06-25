@@ -91,7 +91,7 @@ export function GridPattern({
         resizeObserver.unobserve(containerRef.current);
       }
     };
-  }, [containerRef]);
+  }, [containerRef,generateSquares]);
 
   return (
     <svg

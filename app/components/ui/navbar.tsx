@@ -22,6 +22,10 @@ const links = [
     name: "Canva",
     href: "/#canva",
   },
+  {
+    name: "Scratch",
+    href: "/#scratch",
+  },
 ];
 
 const Navbar: React.FC<NavbarClassName> = ({ className }) => {
@@ -103,7 +107,7 @@ const NavbarMobile = () => {
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {links.map((link) => (
-              <Link key={link.name} href={link.href}>
+              <Link key={link.name} href={link.href} target="_blank">
                 <button
                   onClick={() => handleLinkClick(link.name)}
                   className={clsx("block py-2 px-3 rounded md:p-0", {
