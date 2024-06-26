@@ -123,11 +123,11 @@ export default function Scratch() {
           />
         </div>
         <h1 className="flex items-center justify-center w-full text-xl md:text-4xl font-bold text-white">
-          Qu&apos;est-ce que{" "}
+          What is{" "}
           <div className="md:mx-4 mx-1 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#ffe51e] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent transform skew-y-12 scale-y-100">
             SCRATCH
           </div>{" "}
-          et comment l&apos;utiliser
+          and how to use it
         </h1>
         <p className="my-2 md:my-5 text-[10px] md:text-xl">
           Scratch est un langage de programmation visuel et une communauté en
@@ -137,8 +137,7 @@ export default function Scratch() {
           computationnelle de manière interactive et engageante. Les
           utilisateurs créent des programmes en assemblant des blocs de code
           dans une interface de glisser-déposer, ce qui le rend accessible et
-          facile à utiliser sans avoir besoin d&apos;écrire du code
-          manuellement.
+          facile à utiliser sans avoir besoin d&apos;écrire du code manuellement.
         </p>
       </div>
       <Header
@@ -163,9 +162,9 @@ export default function Scratch() {
       <ScratchProject />
       <p className="mt-10 md:mt-5 text-[10px] md:text-xl md:my-5">
         En intégrant Scratch dans le programme éducatif, les enseignants peuvent
-        offrir une manière amusante et engageante pour les élèves
-        d&apos;apprendre les compétences essentielles en programmation et de
-        développer la pensée critique et la créativité.
+        offrir une manière amusante et engageante pour les élèves d&apos;apprendre
+        les compétences essentielles en programmation et de développer la pensée
+        critique et la créativité.
       </p>
     </div>
   );

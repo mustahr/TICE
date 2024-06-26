@@ -5,50 +5,50 @@ import Image from "next/image";
 
 const reviews = [
   {
-    name: "Sélection de Couches Difficiles",
-    body: "Utilisez Ctrl pour sélectionner des couches difficiles. Ce raccourci vous aide à sélectionner plusieurs couches facilement.",
+    name: "Selecting Difficult Layers",
+    body: "Use Ctrl to select difficult layers. This shortcut helps you select multiple layers with ease.",
     img: "/canvaTricks/select.png",
     link: "https://www.canva.com/design/DAGH3FqOvJY/wcvEn1IrHKCAyP4Y6nd1Bw/edit?utm_content=DAGH3FqOvJY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Conception d'une Belle Couverture d'eBook ou Maquette de Produit",
-    body: "Apprenez à concevoir de magnifiques couvertures d'eBooks et maquettes de produits pour améliorer vos présentations et supports marketing.",
+    name: "Designing a Beautiful eBook Cover or Product Mockup",
+    body: "Learn how to design stunning eBook covers and product mockups to enhance your presentations and marketing materials.",
     img: "/canvaTricks/ebook.png",
     link: "https://www.canva.com/design/DAGH3fEM0Bg/nezRAfvlEHbMUizoRPV85Q/edit?utm_content=DAGH3fEM0Bg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Zoom Avant et Arrière",
-    body: "Utilisez Ctrl + Défilement ou Ctrl + (+/-) pour zoomer avant et arrière, ce qui facilite le travail sur les détails complexes de votre design.",
+    name: "Zooming In and Out",
+    body: "Use Ctrl + Scroll or Ctrl + (+/-) to zoom in and out, making it easier to work on intricate details of your design.",
     img: "/canvaTricks/zoom.png",
     link: "https://www.canva.com/design/DAGH3fEM0Bg/nezRAfvlEHbMUizoRPV85Q/edit?utm_content=DAGH3fEM0Bg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Ajout d'Hyperliens au Texte",
-    body: "Découvrez comment ajouter des hyperliens au texte dans vos designs pour rendre vos documents interactifs et fonctionnels.",
+    name: "Adding Hyperlinks to Text",
+    body: "Discover how to add hyperlinks to text within your designs to make your documents interactive and functional.",
     img: "/canvaTricks/link.png",
     link: "https://www.canva.com/design/DAGH3FqOvJY/wcvEn1IrHKCAyP4Y6nd1Bw/edit?utm_content=DAGH3FqOvJY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Positionnement des Éléments",
-    body: "Maîtrisez l'art du positionnement des éléments dans vos designs pour un aspect plus propre et professionnel.",
+    name: "Positioning Elements",
+    body: "Master the art of positioning elements in your designs for a cleaner and more professional look.",
     img: "/canvaTricks/position.png",
-    link: "https://www.canva.com/help/keyboard-shortcuts/",
+    link: "https://www.canva.com/design/DAGH3FqOvJY/wcvEn1IrHKCAyP4Y6nd1Bw/edit?utm_content=DAGH3FqOvJY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Suppression des Arrière-plans",
-    body: "Supprimez facilement les arrière-plans des images pour créer des visuels propres et professionnels.",
+    name: "Removing Backgrounds",
+    body: "Easily remove backgrounds from images to create clean and professional visuals.",
     img: "/canvaTricks/removebg.png",
     link: "https://www.canva.com/design/DAGH3FqOvJY/wcvEn1IrHKCAyP4Y6nd1Bw/edit?utm_content=DAGH3FqOvJY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "Tutoriel Vidéo sur l'Encre",
-    body: "Regardez ce tutoriel vidéo pour apprendre à utiliser la fonction encre dans Canva.",
+    name: "Ink Video Tutorial",
+    body: "Watch this video tutorial to learn how to use the ink feature in Canva.",
     img: "/canvaTricks/ink.png",
     link: "https://www.canva.com/design/DAGHmV3Vh-s/ObKh3CISMjc-7nSxhEGWMQ/edit?utm_content=DAGHmV3Vh-s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    name: "École et Éducation",
-    body: "Explorez les fonctionnalités de Canva pour des fins éducatives.",
+    name: "School and Education",
+    body: "Explore Canva's features for educational purposes.",
     img: "/canvaTricks/team.png",
     link: "https://www.canva.com/design/DAGH3FqOvJY/wcvEn1IrHKCAyP4Y6nd1Bw/edit?utm_content=DAGH3FqOvJY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
@@ -73,7 +73,7 @@ const ReviewCard = ({
       href={link}
       target="_blank"
       className={cn(
-        "relative w-80 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative mg:w-80 min-w-full cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
         "border-pink-300 bg-pink-950/[.01] hover:bg-pink-950/[.05]",
         // dark styles

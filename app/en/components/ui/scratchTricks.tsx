@@ -65,7 +65,7 @@ const ReviewCard = ({
       href={link}
       target="_blank"
       className={cn(
-        "relative w-80 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative md:w-80 min-w-full min-h-[4OOpx] cursor-pointer overflow-hidden rounded-xl border p-4",
         // light styles
         "border-yellow-300 bg-yellow-950/[.01] hover:bg-yellow-950/[.05]",
         // dark styles

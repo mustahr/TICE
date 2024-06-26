@@ -11,7 +11,7 @@ interface NavbarClassName {
 
 const links = [
   {
-    name: "Accueil",
+    name: "Home",
     href: "/#home",
   },
   {

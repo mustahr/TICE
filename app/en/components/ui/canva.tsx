@@ -77,6 +77,9 @@ export default function Canva() {
         id="canva"
       >
         <div className="relative w-full max-w-3xl">
+          {/* <h1 className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-9xl font-bold leading-none tracking-tighter text-transparent transform skew-y-12 scale-y-100">
+            CANVA
+          </h1> */}
           <SparklesText
             text="CANVA"
             className="text-6xl md:text-9xl font-bold leading-none tracking-tighter pointer-events-none whitespace-pre-wrap z-10 transform skew-y-12 scale-y-100"
@@ -86,57 +89,55 @@ export default function Canva() {
               id="text1"
               className="bg-white text-sm text-black px-2 py-1 rounded -translate-x-4 translate-y-5 rotate-6"
             >
-              Rapide
+              fast
             </span>
             <span
               id="text2"
               className="bg-white text-sm text-black px-2 py-1 rounded -translate-x-4 -translate-y-10 -rotate-45"
             >
-              Facile
+              Easy
             </span>
             <span
               id="text3"
               className="bg-white text-sm text-black px-2 py-1 rounded translate-x-4 -translate-y-10 rotate-45"
             >
-              Numérique
+              Degital
             </span>
             <span
               id="text4"
               className="bg-white text-sm text-black px-2 py-1 rounded translate-x-6 translate-y-10 -rotate-45"
             >
-              Gratuit
+              Free
             </span>
           </div>
         </div>
         <div className="mt-16 relative" id="img">
           <Image
-            src="/RN-Pic/canva.png"
-            alt="Image Marketing"
+            src="/RN-Pic/canva.png" // Replace with the actual path to your image
+            alt="Marketing Image"
             width={800}
             height={450}
             className="rounded-lg border-2 border-pink-400 p-1"
           />
         </div>
         <h1 className="flex items-center justify-center w-full text-xl md:text-4xl font-bold text-white">
-          Qu&apos;est-ce que{" "}
+          What is{" "}
           <div className="md:mx-4 mx-1 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent transform skew-y-12 scale-y-100">
             CANVA
           </div>{" "}
-          et comment l&apos;utiliser
+          and how to use it
         </h1>
         <p className="my-2 md:my-5 text-[10px] md:text-xl">
-          Canva est un outil de conception graphique en ligne qui permet aux
-          utilisateurs de créer une grande variété de contenus visuels, y
-          compris des présentations, des affiches, des infographies, des
-          graphiques pour les réseaux sociaux, et plus encore. Il est convivial
-          et propose une gamme de modèles, d&apos;images, d&apos;icônes et de
-          polices, ce qui le rend accessible aussi bien aux débutants
-          qu&apos;aux designers expérimentés.
+          Canva is an online graphic design tool that allows users to create a
+          wide variety of visual content, including presentations, posters,
+          infographics, social media graphics, and more. It is user-friendly and
+          provides a range of templates, images, icons, and fonts, making it
+          accessible for both beginners and experienced designers.
         </p>
       </div>
       <FadeInList />
       <Header
-        text="Astuces et Conseils pour Canva"
+        text="Canva Tips and Tricks"
         className="text-4xl font-bold mb-8"
       />
       <CanvaTricks />

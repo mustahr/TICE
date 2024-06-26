@@ -43,7 +43,7 @@ const ResourceCard = ({
     <Link
       href={link}
       target="_blank"
-      className="group relative rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800 hover:opacity-80 hover:border"
+      className="relative rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800 hover:opacity-80 hover:border"
     >
       <Image
         className="w-full"
@@ -59,7 +59,7 @@ const ResourceCard = ({
         </p>
       </div>
       <div className="absolute bottom-2 right-2 flex items-center justify-center">
-        <div className="bg-black rounded-full p-3 h-5 w-5 group-hover:bg-white group-hover:text-black" />
+        <div className="bg-black rounded-full p-3 h-5 w-5 dark:bg-black" />
       </div>
     </Link>
   );

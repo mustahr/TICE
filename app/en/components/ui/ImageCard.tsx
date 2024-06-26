@@ -19,7 +19,7 @@ const images = [
     imgSrc: "/scratchProject/2.png",
     altText: "Image 2",
     text: "Jeux simples : Conception de jeux de base comme des jeux de labyrinthe, de pong ou des quiz pour comprendre les mécanismes de jeu et la logique.",
-    link: "https://www.google.com/search?q=labyrinthe&oq=labyrinthe+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU4ODdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8",
+    link: "https://scratch.mit.edu/search/projects?q=games",
   },
   {
     imgSrc: "/scratchProject/3.png",
@@ -54,7 +54,7 @@ const ImageCard = ({ imgSrc, altText, text, link }: ImageCardProps) => {
           bottom: "0",
           left: "0",
           right: "0",
-          backgroundColor: "rgba(0, 0, 0, 0.8)",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
           color: "#fff",
           padding: "8px",
         }}
